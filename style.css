@@ -1,0 +1,218 @@
+*{
+  padding:0;
+  margin: 0;
+ box-sizing: border-box;
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  overflow-x:none;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  margin-top:1.3vh;
+  z-index:1000;
+  position: fixed;
+  
+}
+.navbar div{
+  width:90vw;
+  
+}
+.nav-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.nav-main li {
+  list-style: none;
+  
+}
+.nav-main li a,.right{
+  text-decoration: none;
+ padding: .86em;
+  color:white;
+  font-size:2.1em;
+}
+.nav-main li:hover{
+  border:2px solid white;
+  background-color: purple;
+  border-radius:23px;
+  transition: .3s;
+}
+#main-header{
+  width:100vw;
+  height:100vh;
+  overflow-x:hidden;
+}
+
+
+
+.header{
+  top:15em;
+  position: absolute;
+/*  height:100vh;
+  width:100vw;*/
+  margin-right:45vw;
+  font-size: 2vh;
+  padding:5vw;
+  z-index:1000;
+  
+}
+.header h2{
+  left:2em;
+  font-size: 4.9em;
+  margin-bottom: 1.4em;
+  color:white;
+}
+.header p{
+  position: fixed;
+  margin-top:.5em;
+  margin-left: 1.4em;
+  color:white;
+  
+}
+.main-btn {
+  width: 17em;
+  height:3.7em;
+  border:2px solid white;
+  position: fixed;
+  top:75em;
+  left:11em;
+  z-index: 1000;
+  border-radius: 13px;
+  color:white;
+  background: transparent;
+  margin-left: 2.9em;
+}
+.main-btn a{
+  text-decoration: none;
+  color:white;
+  font-size:2.3em;
+  margin-left: 1.1em;
+  margin-top: .3em;
+}
+
+#vedioBg{
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width:100%;
+  min-height: 100%;
+  
+}
+
+#services{
+  height:100%;
+  width:100%;
+  z-index:500;
+  color:white;
+  position: fixed;
+ 
+  background-image:url('milky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.col-i{
+  display: flex;
+ /* border:7px solid gold;*/
+}
+
+#vedioBg-ser{
+  width:80vw;
+  height:300px;
+  position:relative;
+  border-radius:17px;
+  overflow: hidden;
+}
+.box{
+  position: relative;
+  z-index:1000;
+  text-align: center;
+  font-size:2.1em;
+  margin:10px;
+  
+}
+.box p{
+  margin-top:4px;
+}
+.col-i--left{
+  border:2px solid white;
+  width:80vw;
+  margin: 2em;
+  border-radius:13px;
+}
+.class-i--right{
+  border: 2px solid white;
+  width:80vw;
+  margin: 2em;
+  border-radius: 13px;
+}
+#features
+{
+  text-align: center;
+  font-size: 4.5em;
+  margin:  2em 0;
+  word-spacing: 2px;
+}
+.col-i--left:hover,.class-i--right:hover
+{
+  height:450px;
+  width:90vw;
+  border:4px solid palegoldenrod;
+  border-radius: 19px;
+  transition: .5s;
+}
+#about-us{
+ 
+  position: relative;
+  width:700px;
+  height:130vh;
+}
+#videoBg-abt{
+   
+    position:fixed;
+    border-top-right-radius: 21px;
+   
+
+}
+#about{
+  height:130vh;
+  width:180vw;
+  position:relative;
+  z-index: 1500;
+  background-color: black;
+
+  border-radius: 29px;
+}
+.container{
+  z-index: -1;
+  margin-top: 25px;
+  height:70vh;
+  width:95%;
+  display: flex;
+  background-image: url('milky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin:20px;
+  border:2px solid white;
+  box-shadow: black;
+  border-radius: 23px;
+}
+.container h1{
+  color:gold;
+  font-size: 4.1em;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 650px;
+}
+.footer p{
+  color:white;
+  margin-top: 45px;
+  text-align: center;
+  font-size: 4.1em;
+}
